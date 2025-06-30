@@ -58,7 +58,7 @@ export default function CategoryNav({ categories }: Props) {
       value={selected}
       onChange={handleChange}
       className="bg-transparent ring-0 text-text
-      focus-visible:outline-0 text-lg font-semibold mb-4"
+      focus-visible:outline-0 text-lg font-semibold"
     >
       {categories.map((cat) => (
         <option key={cat} value={slugify(cat)}>

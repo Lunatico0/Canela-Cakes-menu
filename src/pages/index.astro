@@ -7,7 +7,7 @@ const categories = menu.map((section) => section.category);
 ---
 
 <Layout title="Menú">
-  <div class="space-y-8 scroll-smooth px-4">
+  <div class="space-y-6 max-w-screen-md mx-auto scroll-smooth px-4">
     {
       menu.map(({ category, items }) => {
         const id = category
@@ -16,7 +16,7 @@ const categories = menu.map((section) => section.category);
           .normalize("NFD")
           .replace(/[\u0300-\u036f]/g, "");
         return (
-          <section id={id} class="scroll-mt-24">
+          <section id={id} class="scroll-mt-40">
             <h2 class="text-xl uppercase font-semibold mb-4">{category}</h2>
             <div class="flex flex-col gap-3">
               {items.map((item) => (
