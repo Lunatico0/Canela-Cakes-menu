@@ -1,0 +1,35 @@
+---
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import logo from "@assets/CanelaCakes(Azul).png";
+import "@styles/global.css";
+const { title = "Canela Cakes" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <link rel="icon" type="image/svg+xml" href={logo.src} />
+  </head>
+  <body
+    class="bg-background text-text font-sans min-h-screen transition-colors"
+  >
+    <Header />
+
+    <main class="py-20 mx-auto px-4">
+      <slot />
+    </main>
+
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,47 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer
+  class="mt-4 w-full bg-secondary text-text z-50 transition-all duration-500"
+>
+  <div class="flex justify-center gap-x-12 text-xl py-4">
+    <a
+      href="https://instagram.com/canela_cakess"
+      target="_blank"
+      aria-label="Instagram"
+      class="scale-150 hover:scale-200 transition-transform duration-200"
+    >
+      <i class="ri-instagram-line"></i>
+    </a>
+    <a
+      href="https://wa.me/5493435510095"
+      target="_blank"
+      aria-label="WhatsApp"
+      class="scale-150 hover:scale-200 transition-transform duration-200"
+    >
+      <i class="ri-whatsapp-line"></i>
+    </a>
+    <a
+      href="https://maps.app.goo.gl/tNCuMkMDvB6AjuBH9"
+      target="_blank"
+      aria-label="Ubicación"
+      class="scale-150 hover:scale-200 transition-transform duration-200"
+    >
+      <i class="ri-map-pin-line"></i>
+    </a>
+  </div>
+
+  <p class="flex items-center justify-center py-2 text-sm opacity-80">
+    CanelaCakes® hecho por
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://pittanapatricio.vercel.app"
+      class="inline-flex items-center pl-1"
+    >
+      <img src="/logo-dev.svg" alt="Pittana Patricio Dev" class="h-5" />
+    </a>
+    . © {year}
+  </p>
+</footer>

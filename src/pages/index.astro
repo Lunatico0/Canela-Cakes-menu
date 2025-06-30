@@ -1,16 +1,31 @@
 ---
+import Layout from "@layouts/Layout.astro";
+import MenuItem from "@components/MenuItem.astro";
+import menu from "@data/menu.json";
 
+const categories = menu.map((section) => section.category);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Menú">
+  <div class="space-y-8 scroll-smooth px-4">
+    {
+      menu.map(({ category, items }) => {
+        const id = category
+          .toLowerCase()
+          .replace(/\s+/g, "-")
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "");
+        return (
+          <section id={id} class="scroll-mt-24">
+            <h2 class="text-xl uppercase font-semibold mb-4">{category}</h2>
+            <div class="flex flex-col gap-3">
+              {items.map((item) => (
+                <MenuItem {...item} />
+              ))}
+            </div>
+          </section>
+        );
+      })
+    }
+  </div>
+</Layout>

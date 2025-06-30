@@ -1,0 +1,25 @@
+/* ✅ IMPORTS: deben estar primero */
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import "tailwindcss";
+@import "remixicon/fonts/remixicon.css";
+
+/* ✅ PERSONALIZACIÓN: después */
+@theme {
+  --color-text: #040316;
+  --color-background: #bee5f8;
+  --color-primary: #f2a1e7;
+  --color-secondary: #dfa3ff;
+  --color-accent: #443dff;
+
+  --font-sans: "Inter", sans-serif;
+  --font-script: "Imperial Script", cursive;
+}
+
+/* @theme {
+  --color-text: #040316;
+  --color-background: #bee5f8;
+  --color-primary: #f2a1e7;
+  --color-secondary: #dfa3ff;
+  --color-accent: #443dff;
+  --font-family: "Imperial Script", cursive;
+} */

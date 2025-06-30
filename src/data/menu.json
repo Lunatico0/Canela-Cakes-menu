@@ -1,0 +1,191 @@
+[
+  {
+    "category": "Cafetería",
+    "items": [
+      {
+        "name": "Café",
+        "price": 1500,
+        "description": "Café negro intenso, servido recién hecho con granos seleccionados.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Café con leche",
+        "price": 2200,
+        "description": "Un clásico reconfortante: mitad café, mitad leche espumada.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Lágrima",
+        "price": 1700,
+        "description": "Leche caliente con un toque sutil de café. Suave y delicada.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Cortado",
+        "price": 1800,
+        "description": "Café espresso suavizado con apenas un chorrito de leche caliente.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Submarino (500ml)",
+        "price": 5400,
+        "description": "Barra de chocolate derritiéndose en leche caliente, para los más golosos.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Submarinito (240ml)",
+        "price": 3800,
+        "description": "Versión mini del submarino, ideal para un capricho dulce.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Mocaccino",
+        "price": 4400,
+        "description": "Café con leche espumosa, chocolate y un toque de canela.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Irlandés",
+        "price": 6000,
+        "description": "Café fuerte con whisky irlandés y crema batida. Para momentos especiales.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Caramel Macchiato",
+        "price": 3300,
+        "description": "Café con leche, vainilla y caramelo, servido con espuma cremosa.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Baileys",
+        "price": 5400,
+        "description": "Café cremoso fusionado con licor Baileys. Dulce y potente.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Capuccino",
+        "price": 2400,
+        "description": "Equilibrio perfecto entre espresso, leche vaporizada y espuma.",
+        "icon": "ri-cup-line"
+      },
+      {
+        "name": "Té",
+        "price": 1200,
+        "description": "Variedades clásicas de té servidas en hebras o saquitos.",
+        "icon": "ri-cup-line"
+      }
+    ]
+  },
+  {
+    "category": "Bebidas Frías",
+    "items": [
+      {
+        "name": "Cerveza",
+        "description": "Refrescante y espumosa, ideal para tardes calurosas.",
+        "price": 2600,
+        "icon": "ri-beer-line"
+      },
+      {
+        "name": "Gaseosa",
+        "description": "Clásicas burbujeantes en variedad de sabores.",
+        "price": 2600,
+        "icon": "ri-bubble-chart-line"
+      },
+      {
+        "name": "Agua",
+        "description": "Pura, cristalina y natural. Siempre necesaria.",
+        "price": 1500,
+        "icon": "ri-water-flash-line"
+      },
+      {
+        "name": "Agua Saborizada",
+        "description": "Hidratación con un toque de sabor frutal.",
+        "price": 2100,
+        "icon": "ri-sparkling-line"
+      },
+      {
+        "name": "Jugo de naranja",
+        "description": "Exprés recién hecho con naranjas dulces y jugosas.",
+        "price": 2300,
+        "icon": "ri-drinks-line"
+      },
+      {
+        "name": "Licuados",
+        "description": "Licuados frutales con leche o agua. Naturales y frescos.",
+        "price": 3600,
+        "icon": "ri-drinks-line"
+      },
+      {
+        "name": "Frappe",
+        "description": "Granizado de sabores intensos: frutilla, oreo, choco y más.",
+        "price": 4600,
+        "icon": "ri-drinks-line"
+      },
+      {
+        "name": "Frapuccino",
+        "description": "Café frío con crema, chocolate y topping. Estilo americano.",
+        "price": 4800,
+        "icon": "ri-drinks-line"
+      },
+      {
+        "name": "Smoothie",
+        "description": "Batido saludable de frutas frescas. Rojo, blanco o amarillo.",
+        "price": 3600,
+        "icon": "ri-drinks-line"
+      }
+    ]
+  },
+  {
+    "category": "Pastelería",
+    "items": [
+      {
+        "name": "Lemon Pie",
+        "description": "Base crocante con crema de limón y merengue flameado.",
+        "price": 3500,
+        "icon": "ri-cake-3-line"
+      },
+      {
+        "name": "Key Lime Pie",
+        "description": "Versión americana con lima intensa y suave crema.",
+        "price": 5500,
+        "icon": "ri-cake-3-line"
+      },
+      {
+        "name": "Red Velvet",
+        "description": "Bizcochuelo rojo aterciopelado con crema de queso.",
+        "price": 5900,
+        "icon": "ri-cake-3-line"
+      },
+      {
+        "name": "Torta Austriaca",
+        "description": "Estilo sachertorte con chocolate denso y relleno frutal.",
+        "price": 5900,
+        "icon": "ri-cake-3-line"
+      },
+      {
+        "name": "Chocotorta",
+        "description": "Postre argentino de galletitas de chocolate y crema.",
+        "price": 5800,
+        "icon": "ri-cake-3-line"
+      },
+      {
+        "name": "Doble Oreo",
+        "description": "Torta rellena de crema y muchas Oreos por dentro y fuera.",
+        "price": 5900,
+        "icon": "ri-cake-3-line"
+      },
+      {
+        "name": "Matilda",
+        "description": "Bizcochuelo húmedo de chocolate con ganache intensa.",
+        "price": 6300,
+        "icon": "ri-cake-3-line"
+      },
+      {
+        "name": "Pastafrola",
+        "description": "Masa dulce con relleno de membrillo o batata.",
+        "price": 3500,
+        "icon": "ri-cake-3-line"
+      }
+    ]
+  }
+]

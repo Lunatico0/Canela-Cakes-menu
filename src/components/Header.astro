@@ -1,0 +1,37 @@
+---
+import logo from "@assets/CanelaCakes(Azul).png";
+import CategoryNav from "@components/CategoryNav.tsx";
+import menu from "@data/menu.json";
+
+const categories = menu.map((section) => section.category);
+---
+
+<header
+  class="sticky top-0 z-50 px-4 py-6 bg-[linear-gradient(to_bottom,theme(colors.background)_85%,transparent_100%)] transition-all duration-300"
+>
+  <div
+    class="relative flex items-center justify-between max-w-screen-md mx-auto"
+  >
+    <!-- Línea derecha: arranca donde termina el logo -->
+    <div
+      class="absolute top-1/2 left-44 right-0 h-px bg-text/30 translate-y-[-50%] z-0"
+    >
+    </div>
+
+    <!-- LOGO -->
+    <div class="relative z-10 shrink-0 flex items-center">
+      <img
+        src={logo.src}
+        alt="Canela Cakes logo"
+        class="h-32 aspect-[100px/138px] object-contain"
+      />
+    </div>
+
+    <!-- SELECTOR DE CATEGORÍAS (alineado encima de línea) -->
+    <div
+    class="absolute right-8 top-7 -translate-y-[calc(50%-4px)] z-10"
+    >
+      <CategoryNav client:only="react" categories={categories} />
+    </div>
+  </div>
+</header>
