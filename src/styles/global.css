@@ -15,12 +15,8 @@
   --font-script: "Imperial Script", cursive;
 }
 
-/* @theme {
-  --color-text: #040316;
-  --color-background: #bee5f8;
-  --color-primary: #f2a1e7;
-  --color-secondary: #dfa3ff;
-  --color-accent: #443dff;
-  --font-family: "Imperial Script", cursive;
-  --color-text-canela: #4d6d74;
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 } */

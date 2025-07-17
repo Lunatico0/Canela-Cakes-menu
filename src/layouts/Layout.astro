@@ -2,6 +2,7 @@
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import logo from "@assets/CanelaCakes(Azul).png";
+import WifiButton from '@components/WifiButton.tsx'
 import "@styles/global.css";
 const { title = "Canela Cakes" } = Astro.props;
 ---
@@ -29,6 +30,8 @@ const { title = "Canela Cakes" } = Astro.props;
     <main>
       <slot />
     </main>
+
+    <WifiButton client:only="react" />
 
     <Footer />
   </body>

@@ -1,10 +1,35 @@
 ---
-const { name, description, price, icon } = Astro.props;
+interface MenuItemProps {
+  name: string;
+  description: string;
+  price: number;
+  icon: keyof typeof icons;
+}
+
+import LocalCafeOutlinedIcon from "@mui/icons-material/LocalCafeOutlined";
+import LocalDrinkOutlinedIcon from "@mui/icons-material/LocalDrinkOutlined";
+import BubbleChartOutlinedIcon from "@mui/icons-material/BubbleChartOutlined";
+import CookieOutlinedIcon from "@mui/icons-material/CookieOutlined";
+
+const icons = {
+  LocalCafeOutlinedIcon,
+  LocalDrinkOutlinedIcon,
+  BubbleChartOutlinedIcon,
+  CookieOutlinedIcon,
+};
+
+const { name, description, price, icon } = Astro.props as MenuItemProps;
+
+const SelectedIcon = icons[icon] ?? CookieOutlinedIcon;
 ---
 
-<article class="flex gap-3 items-start bg-white/40 rounded-xl p-4 shadow-sm font-inter">
-  <div class="bg-secondary text-white p-3 rounded-lg flex items-center justify-center">
-    <i class={`${icon} text-2xl`}></i>
+<article
+  class="flex gap-3 items-start bg-white/40 rounded-xl p-4 shadow-sm font-inter"
+>
+  <div
+    class="bg-secondary text-white p-3 rounded-lg flex items-center justify-center"
+  >
+    <SelectedIcon />
   </div>
   <div class="flex-1">
     <div class="flex justify-between items-start">
