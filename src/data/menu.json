@@ -185,6 +185,144 @@
         "description": "Masa dulce con relleno de membrillo o batata.",
         "price": 3500,
         "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Selva Negra",
+        "description": "Clásico pastel de capas de chocolate, crema y cerezas.",
+        "price": 6800,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Chajá",
+        "description": "Bizcochuelo, crema chantilly, duraznos y merengue crocante.",
+        "price": 5900,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Brownie",
+        "description": "Brownie clásico de chocolate intenso, húmedo y delicioso.",
+        "price": 5700,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Rogel",
+        "description": "Capas finas de masa y abundante dulce de leche, coronado con merengue.",
+        "price": 5700,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Cookies",
+        "description": "Galletas grandes y suaves, rellenas de chips de chocolate.",
+        "price": 3900,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Cookies mini",
+        "description": "Mini galletitas ideales para acompañar un café o té.",
+        "price": 2200,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Tostados",
+        "description": "Clásico sándwich caliente de jamón y queso.",
+        "price": 4800,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Tostados 1/2",
+        "description": "Porción individual del sándwich tostado de jamón y queso.",
+        "price": 3000,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Alfajor maicena",
+        "description": "Alfajor de maicena relleno de dulce de leche y bordeado en coco.",
+        "price": 2000,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Alfajor imitación Havanna",
+        "description": "Alfajor bañado en chocolate con relleno de dulce de leche.",
+        "price": 4500,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Alfajor Clásico",
+        "description": "Alfajor de chocolate o vainilla con relleno de dulce de leche.",
+        "price": 2000,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Alfajor c/Mermelada",
+        "description": "Alfajor relleno de mermelada frutal, una opción dulce y diferente.",
+        "price": 1900,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Cuadraditos de Brownie",
+        "description": "Mini porciones de brownie húmedo y chocolatoso.",
+        "price": 2800,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Espumitas de limón",
+        "description": "Deliciosos bocaditos aireados con un refrescante sabor a limón.",
+        "price": 2900,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Tiramisú",
+        "description": "Postre italiano de capas de bizcocho, café, crema y cacao.",
+        "price": 5500,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Cheesecake",
+        "description": "Pastel cremoso de queso sobre base crocante, decorado con frutas.",
+        "price": 5800,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Cocada",
+        "description": "Bocaditos de coco rallado dulce, ideales para un snack tropical.",
+        "price": 3400,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Cabsha",
+        "description": "Bombón de chocolate relleno de dulce de leche cremoso.",
+        "price": 3400,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Medialunas",
+        "description": "Clásicos croissants argentinos glaseados y esponjosos.",
+        "price": 1000,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Croissant JyQ",
+        "description": "Croissant relleno de jamón y queso, ideal para desayunos o brunch.",
+        "price": 5200,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Croissant Dulce de Leche",
+        "description": "Croissant suave relleno de dulce de leche artesanal.",
+        "price": 4400,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Crepas dulces",
+        "description": "Finísimas crepas rellenas con frutas, chocolate o dulce de leche.",
+        "price": 4200,
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Crepas saladas",
+        "description": "Crepas rellenas de jamón, queso o verduras, una opción salada deliciosa.",
+        "price": 4800,
+        "icon": "CookieOutlinedIcon"
       }
     ]
   }
