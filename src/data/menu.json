@@ -4,74 +4,85 @@
     "items": [
       {
         "name": "Café",
-        "price": 1500,
-        "description": "Café negro intenso, servido recién hecho con granos seleccionados.",
+        "price": 1800,
+        "description": "Espresso clásico, intenso y aromático, servido recién hecho.",
+        "icon": "LocalCafeOutlinedIcon"
+      },
+      {
+        "name": "Café doble",
+        "price": 3000,
+        "description": "Espresso concentrado en doble medida, para un sabor más intenso.",
         "icon": "LocalCafeOutlinedIcon"
       },
       {
         "name": "Café con leche",
-        "price": 2200,
-        "description": "Un clásico reconfortante: mitad café, mitad leche espumada.",
+        "price": 2600,
+        "description": "Espresso suave acompañado de leche espumosa.",
         "icon": "LocalCafeOutlinedIcon"
       },
       {
         "name": "Lágrima",
-        "price": 1700,
-        "description": "Leche caliente con un toque sutil de café. Suave y delicada.",
+        "price": 2000,
+        "description": "Leche caliente con apenas una gota de café.",
         "icon": "LocalCafeOutlinedIcon"
       },
       {
         "name": "Cortado",
-        "price": 1800,
-        "description": "Café espresso suavizado con apenas un chorrito de leche caliente.",
+        "price": 2100,
+        "description": "Espresso intenso suavizado con un toque de leche caliente.",
         "icon": "LocalCafeOutlinedIcon"
       },
       {
         "name": "Submarino (500ml)",
-        "price": 5400,
-        "description": "Barra de chocolate derritiéndose en leche caliente, para los más golosos.",
+        "price": 6400,
+        "description": "Leche caliente con una tableta de chocolate para derretir.",
         "icon": "LocalCafeOutlinedIcon"
       },
       {
         "name": "Submarinito (240ml)",
-        "price": 3800,
-        "description": "Versión mini del submarino, ideal para un capricho dulce.",
+        "price": 4500,
+        "description": "Versión pequeña del clásico submarino.",
         "icon": "LocalCafeOutlinedIcon"
       },
       {
         "name": "Mocaccino",
-        "price": 4400,
-        "description": "Café con leche espumosa, chocolate y un toque de canela.",
-        "icon": "LocalCafeOutlinedIcon"
+        "price": 5200,
+        "description": "Espresso con leche espumosa y salsa de chocolate.",
+        "icon": "LocalCafeOutlinedIcon",
+        "image": "mocaccino.jpg"
+      },
+      {
+        "name": "Caramel Macchiato",
+        "price": 4000,
+        "description": "Espresso suave con leche vaporizada, endulzado y coronado con toques de caramelo.",
+        "icon": "LocalCafeOutlinedIcon",
+        "image": "caramel macchiato (2).jpg"
       },
       {
         "name": "Irlandés",
         "price": 6000,
-        "description": "Café fuerte con whisky irlandés y crema batida. Para momentos especiales.",
-        "icon": "LocalCafeOutlinedIcon"
-      },
-      {
-        "name": "Caramel Macchiato",
-        "price": 3300,
-        "description": "Café con leche, vainilla y caramelo, servido con espuma cremosa.",
-        "icon": "LocalCafeOutlinedIcon"
+        "description": "Café intenso con whisky irlandés y crema suave en la superficie.",
+        "icon": "LocalCafeOutlinedIcon",
+        "image": "irlandes.jpg"
       },
       {
         "name": "Baileys",
-        "price": 5400,
-        "description": "Café cremoso fusionado con licor Baileys. Dulce y potente.",
-        "icon": "LocalCafeOutlinedIcon"
+        "price": 5500,
+        "description": "Espresso con la suavidad y dulzura del licor Baileys, coronado con crema.",
+        "icon": "LocalCafeOutlinedIcon",
+        "image": "baileys.jpg"
       },
       {
         "name": "Capuccino",
-        "price": 2400,
-        "description": "Equilibrio perfecto entre espresso, leche vaporizada y espuma.",
-        "icon": "LocalCafeOutlinedIcon"
+        "price": 4000,
+        "description": "Equilibrio entre espresso, leche caliente y espuma, coronado con cacao o canela.",
+        "icon": "LocalCafeOutlinedIcon",
+        "image": "capuccino.jpg"
       },
       {
         "name": "Té",
-        "price": 1200,
-        "description": "Variedades clásicas de té servidas en hebras o saquitos.",
+        "price": 2000,
+        "description": "Variedades clásicas de té en hebras o saquitos.",
         "icon": "LocalCafeOutlinedIcon"
       }
     ]
@@ -80,58 +91,81 @@
     "category": "Bebidas Frías",
     "items": [
       {
-        "name": "Cerveza",
-        "description": "Refrescante y espumosa, ideal para tardes calurosas.",
-        "price": 2600,
-        "icon": "LocalDrinkOutlinedIcon"
-      },
-      {
         "name": "Gaseosa",
-        "description": "Clásicas burbujeantes en variedad de sabores.",
-        "price": 2600,
+        "price": 3100,
+        "description": "Clásicas gaseosas burbujeantes en variedad de sabores.",
         "icon": "BubbleChartOutlinedIcon"
       },
       {
         "name": "Agua",
-        "description": "Pura, cristalina y natural. Siempre necesaria.",
-        "price": 1500,
+        "price": 1800,
+        "description": "Agua mineral natural, pura y refrescante.",
         "icon": "LocalDrinkOutlinedIcon"
       },
       {
-        "name": "Agua Saborizada",
-        "description": "Hidratación con un toque de sabor frutal.",
-        "price": 2100,
+        "name": "Agua saborizada",
+        "price": 2500,
+        "description": "Agua mineral con un toque de sabor frutal.",
+        "icon": "LocalDrinkOutlinedIcon"
+      },
+      {
+        "name": "Jugo Baggio",
+        "price": 2200,
+        "description": "Jugo clásico Baggio en diferentes sabores.",
+        "icon": "LocalDrinkOutlinedIcon"
+      },
+      {
+        "name": "Leche chocolatada",
+        "price": 2000,
+        "description": "Leche fresca mezclada con chocolate, ideal para todas las edades.",
         "icon": "LocalDrinkOutlinedIcon"
       },
       {
         "name": "Jugo de naranja",
-        "description": "Exprés recién hecho con naranjas dulces y jugosas.",
-        "price": 2300,
+        "price": 2700,
+        "description": "Jugo de naranja exprimido, fresco y natural.",
         "icon": "LocalDrinkOutlinedIcon"
       },
       {
         "name": "Licuados",
-        "description": "Licuados frutales con leche o agua. Naturales y frescos.",
-        "price": 3600,
+        "price": 4300,
+        "description": "Licuados naturales de frutilla o banana, preparados con leche o agua.",
         "icon": "LocalDrinkOutlinedIcon"
       },
       {
-        "name": "Frappe",
-        "description": "Granizado de sabores intensos: frutilla, oreo, choco y más.",
-        "price": 4600,
-        "icon": "LocalDrinkOutlinedIcon"
+        "name": "Frappe frutilla",
+        "price": 5500,
+        "description": "Batido refrescante de frutillas, leche, leche condensada y hielo.",
+        "icon": "LocalDrinkOutlinedIcon",
+        "image": "frappe frutilla.jpg"
+      },
+      {
+        "name": "Frappe doble choco",
+        "price": 5500,
+        "description": "Batido de leche, trozos y salsa de chocolate, con mucho hielo.",
+        "icon": "LocalDrinkOutlinedIcon",
+        "image": "frappe doble chocolate.jpg"
+      },
+      {
+        "name": "Frappe banana split",
+        "price": 5500,
+        "description": "Batido de banana, dulce de leche, leche y hielo.",
+        "icon": "LocalDrinkOutlinedIcon",
+        "image": "frappe banana split.jpg"
+      },
+      {
+        "name": "Frappe oreo",
+        "price": 5500,
+        "description": "Batido con trocitos de galleta Oreo, cacao, leche y hielo.",
+        "icon": "LocalDrinkOutlinedIcon",
+        "image": "frappe oreo.jpg"
       },
       {
         "name": "Frapuccino",
-        "description": "Café frío con crema, chocolate y topping. Estilo americano.",
-        "price": 4800,
-        "icon": "LocalDrinkOutlinedIcon"
-      },
-      {
-        "name": "Smoothie",
-        "description": "Batido saludable de frutas frescas. Rojo, blanco o amarillo.",
-        "price": 3600,
-        "icon": "LocalDrinkOutlinedIcon"
+        "price": 5700,
+        "description": "Café mezclado con leche y hielo, estilo americano.",
+        "icon": "LocalDrinkOutlinedIcon",
+        "image": "frapuccino.jpg"
       }
     ]
   },
@@ -140,189 +174,222 @@
     "items": [
       {
         "name": "Lemon Pie",
-        "description": "Base crocante con crema de limón y merengue flameado.",
-        "price": 3500,
+        "price": 4200,
+        "description": "Masa crocante rellena con crema de limón y coronada con merengue.",
         "icon": "CookieOutlinedIcon"
       },
       {
         "name": "Key Lime Pie",
-        "description": "Versión americana con lima intensa y suave crema.",
-        "price": 5500,
+        "price": 6000,
+        "description": "Base crocante con crema de lima y leche condensada, terminada con crema chantilly.",
         "icon": "CookieOutlinedIcon"
       },
       {
         "name": "Red Velvet",
-        "description": "Bizcochuelo rojo aterciopelado con crema de queso.",
-        "price": 5900,
+        "price": 7000,
+        "description": "Bizcochuelo rojo aterciopelado acompañado con frosting de queso crema.",
         "icon": "CookieOutlinedIcon"
       },
       {
         "name": "Torta Austriaca",
-        "description": "Estilo sachertorte con chocolate denso y relleno frutal.",
-        "price": 5900,
-        "icon": "CookieOutlinedIcon"
+        "price": 7000,
+        "description": "Bizcochuelo húmedo con uvas, coronado con crumble dorado y crocante.",
+        "icon": "CookieOutlinedIcon",
+        "image": "torta austriaca.jpg"
       },
       {
         "name": "Chocotorta",
-        "description": "Postre argentino de galletitas de chocolate y crema.",
-        "price": 5800,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Doble Oreo",
-        "description": "Torta rellena de crema y muchas Oreos por dentro y fuera.",
-        "price": 5900,
+        "price": 6500,
+        "description": "Capas de galletitas de chocolate intercaladas con mezcla de dulce de leche y crema.",
         "icon": "CookieOutlinedIcon"
       },
       {
         "name": "Matilda",
-        "description": "Bizcochuelo húmedo de chocolate con ganache intensa.",
-        "price": 6300,
+        "price": 7500,
+        "description": "Bizcochuelo de chocolate relleno y cubierto con ganache de chocolate.",
         "icon": "CookieOutlinedIcon"
       },
       {
         "name": "Pastafrola",
-        "description": "Masa dulce con relleno de membrillo o batata.",
-        "price": 3500,
-        "icon": "CookieOutlinedIcon"
+        "price": 4200,
+        "description": "Clásica tarta rellena con dulce de membrillo o batata.",
+        "icon": "CookieOutlinedIcon",
+        "image": "pastafrola batata.jpg"
       },
       {
         "name": "Selva Negra",
-        "description": "Clásico pastel de capas de chocolate, crema y cerezas.",
-        "price": 6800,
-        "icon": "CookieOutlinedIcon"
+        "price": 8000,
+        "description": "Bizcochuelo de chocolate, crema y cerezas, coronado con chocolate rallado.",
+        "icon": "CookieOutlinedIcon",
+        "image": "selva negra.jpg"
       },
       {
         "name": "Chajá",
-        "description": "Bizcochuelo, crema chantilly, duraznos y merengue crocante.",
-        "price": 5900,
-        "icon": "CookieOutlinedIcon"
+        "price": 7000,
+        "description": "Bizcochuelo esponjoso con dulce de leche, crema y duraznos, coronado con merengue.",
+        "icon": "CookieOutlinedIcon",
+        "image": "chaja.jpg"
       },
       {
         "name": "Brownie",
-        "description": "Brownie clásico de chocolate intenso, húmedo y delicioso.",
-        "price": 5700,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Rogel",
-        "description": "Capas finas de masa y abundante dulce de leche, coronado con merengue.",
-        "price": 5700,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Cookies",
-        "description": "Galletas grandes y suaves, rellenas de chips de chocolate.",
-        "price": 3900,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Cookies mini",
-        "description": "Mini galletitas ideales para acompañar un café o té.",
-        "price": 2200,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Tostados",
-        "description": "Clásico sándwich caliente de jamón y queso.",
-        "price": 4800,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Tostados 1/2",
-        "description": "Porción individual del sándwich tostado de jamón y queso.",
-        "price": 3000,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Alfajor maicena",
-        "description": "Alfajor de maicena relleno de dulce de leche y bordeado en coco.",
-        "price": 2000,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Alfajor imitación Havanna",
-        "description": "Alfajor bañado en chocolate con relleno de dulce de leche.",
-        "price": 4500,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Alfajor Clásico",
-        "description": "Alfajor de chocolate o vainilla con relleno de dulce de leche.",
-        "price": 2000,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Alfajor c/Mermelada",
-        "description": "Alfajor relleno de mermelada frutal, una opción dulce y diferente.",
-        "price": 1900,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Cuadraditos de Brownie",
-        "description": "Mini porciones de brownie húmedo y chocolatoso.",
-        "price": 2800,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Espumitas de limón",
-        "description": "Deliciosos bocaditos aireados con un refrescante sabor a limón.",
-        "price": 2900,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Tiramisú",
-        "description": "Postre italiano de capas de bizcocho, café, crema y cacao.",
-        "price": 5500,
-        "icon": "CookieOutlinedIcon"
+        "price": 6800,
+        "description": "Bizcocho húmedo de chocolate acompañado con dulce de leche, crema y frutos rojos.",
+        "icon": "CookieOutlinedIcon",
+        "image": "brownie.jpg"
       },
       {
         "name": "Cheesecake",
-        "description": "Pastel cremoso de queso sobre base crocante, decorado con frutas.",
-        "price": 5800,
-        "icon": "CookieOutlinedIcon"
+        "price": 6500,
+        "description": "Postre cremoso con base de galletitas crocantes y mermelada de frutos rojos.",
+        "icon": "CookieOutlinedIcon",
+        "image": "cheesecake frutos rojos.jpg"
+      },
+      {
+        "name": "Cheesecake Chocolate Blanco",
+        "price": 7000,
+        "description": "Base crocante con relleno de queso y chocolate blanco, coronado con ganache.",
+        "icon": "CookieOutlinedIcon",
+        "image": "cheesecake chocolate blanco.jpg"
+      },
+      {
+        "name": "Rogel",
+        "price": 7000,
+        "description": "Capas finas de masa con abundante dulce de leche y merengue.",
+        "icon": "CookieOutlinedIcon",
+        "image": "rogel.jpg"
       },
       {
         "name": "Cocada",
-        "description": "Bocaditos de coco rallado dulce, ideales para un snack tropical.",
-        "price": 3400,
+        "price": 4000,
+        "description": "Masa crocante, rellena con dulce de leche, coronada con coco rallado.",
         "icon": "CookieOutlinedIcon"
       },
       {
         "name": "Cabsha",
-        "description": "Bombón de chocolate relleno de dulce de leche cremoso.",
-        "price": 3400,
+        "price": 4000,
+        "description": "Masa crocante de vainilla/chocolate, rellena de dulce de leche, coronada con ganache de chocolate.",
+        "icon": "CookieOutlinedIcon",
+        "image": "cabsha chocolate negro.jpg"
+      },
+      {
+        "name": "Torta manzana",
+        "price": 2400,
+        "description": "Bizcochuelo húmedo con trozos de manzana fresca.",
         "icon": "CookieOutlinedIcon"
       },
       {
-        "name": "Medialunas",
-        "description": "Clásicos croissants argentinos glaseados y esponjosos.",
+        "name": "Cookies",
+        "price": 3900,
+        "description": "Suaves por dentro, ligeramente crocantes por fuera.",
+        "icon": "CookieOutlinedIcon",
+        "image": "cookies.jpg"
+      },
+      {
+        "name": "Alfajor clásico",
+        "price": 2000,
+        "description": "Tapas de chocolate, rellenas con dulce de leche, bañado en chocolate.",
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Alfajor con mermelada",
+        "price": 2000,
+        "description": "Tapas de vainilla, rellenas con dulce de leche, centro de mermelada, bañados en chocolate.",
+        "icon": "CookieOutlinedIcon",
+        "image": "alfajor mermelada.jpg"
+      },
+      {
+        "name": "Alfajor de maicena",
+        "price": 2000,
+        "description": "Alfajor de maicena con dulce de leche y bordes de coco.",
+        "icon": "CookieOutlinedIcon",
+        "image": "alfajor de maicena.jpg"
+      },
+      {
+        "name": "Cuadraditos de brownie",
+        "price": 3000,
+        "description": "Cuadrados de brownie con trozos de nuez.",
+        "icon": "CookieOutlinedIcon",
+        "image": "cuadradito brownie con nuez.jpg"
+      },
+      {
+        "name": "Espumitas de limón",
+        "price": 3000,
+        "description": "Cuadrado húmedo con limón, cubierto con glase.",
+        "icon": "CookieOutlinedIcon",
+        "image": "espumita de limon.jpg"
+      },
+      {
+        "name": "Conitos de dulce de leche",
         "price": 1000,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Croissant JyQ",
-        "description": "Croissant relleno de jamón y queso, ideal para desayunos o brunch.",
-        "price": 5200,
-        "icon": "CookieOutlinedIcon"
-      },
-      {
-        "name": "Croissant Dulce de Leche",
-        "description": "Croissant suave relleno de dulce de leche artesanal.",
-        "price": 4400,
+        "description": "Masa crocante de vainilla, con dulce de leche, bañado en chocolate.",
         "icon": "CookieOutlinedIcon"
       },
       {
         "name": "Crepas dulces",
-        "description": "Finísimas crepas rellenas con frutas, chocolate o dulce de leche.",
-        "price": 4200,
+        "price": 4500,
+        "description": "Banana y dulce de leche // Nutella y frutilla.",
+        "icon": "CookieOutlinedIcon",
+        "image": "crepa banana y dulce de leche.jpg"
+      },
+      {
+        "name": "Pan chocolate",
+        "price": 2500,
+        "description": "Masa hojaldrada, rellena con tableta de chocolate, pincelada con almíbar.",
         "icon": "CookieOutlinedIcon"
       },
       {
         "name": "Crepas saladas",
-        "description": "Crepas rellenas de jamón, queso o verduras, una opción salada deliciosa.",
-        "price": 4800,
+        "price": 4500,
+        "description": "Jamón, queso y crema.",
+        "icon": "CookieOutlinedIcon",
+        "image": "crepa jamon y queso.jpg"
+      },
+      {
+        "name": "Medialunas dulces/saladas",
+        "price": 800,
+        "description": "Clásicas medialunas argentinas, versión dulce o salada.",
+        "icon": "CookieOutlinedIcon",
+        "image": "Medialunas.jpg"
+      },
+      {
+        "name": "Medialunas con jyq",
+        "price": 2500,
+        "description": "Medialunas rellenas de jamón y queso.",
+        "icon": "CookieOutlinedIcon",
+        "image": "medialunas con jyq.jpg"
+      },
+      {
+        "name": "Croissant jamón y queso",
+        "price": 5200,
+        "description": "Masa hojaldrada y crujiente.",
+        "icon": "CookieOutlinedIcon",
+        "image": "Croissant JyQ.jpg"
+      },
+      {
+        "name": "Croissant dulce de leche",
+        "price": 4500,
+        "description": "Relleno con dulce de leche, coronado con azúcar impalpable.",
         "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Croissant Oreo",
+        "price": 5000,
+        "description": "Relleno de crema, trozos de galletita, coronado con salsa de chocolate.",
+        "icon": "CookieOutlinedIcon"
+      },
+      {
+        "name": "Tostados",
+        "price": 5800,
+        "description": "Clásico sándwich caliente de jamón y queso.",
+        "icon": "CookieOutlinedIcon",
+        "image": "tostado.jpg"
+      },
+      {
+        "name": "Tostados 1/2",
+        "price": 3800,
+        "description": "Media porción del sándwich tostado de jamón y queso.",
+        "icon": "CookieOutlinedIcon",
+        "image": "tostado.jpg"
       }
     ]
   }

@@ -3,9 +3,8 @@ import WifiStyledQR from "./WifiStyledQR.tsx";
 import WifiPasswordRoundedIcon from '@mui/icons-material/WifiPasswordRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
-const ssid = "CanelaCakes";
-const password = "BestCakesEver";
-const wifiQR = `WIFI:S:${ssid};T:WPA;P:${password};;`;
+const ssid = "Canela Cakes";
+const password = "Pasteleria2023";
 
 export default function WifiButton() {
   const [show, setShow] = useState(false);
