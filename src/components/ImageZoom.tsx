@@ -34,7 +34,7 @@ export default function ImageZoom({ src, alt, thumbnailClass = "w-16 h-20 rounde
       {/* Modal */}
       {open && (
         <div
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 p-4"
+          className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 p-4 "
           onClick={() => setOpen(false)}
           role="dialog"
           aria-modal="true"
@@ -54,7 +54,7 @@ export default function ImageZoom({ src, alt, thumbnailClass = "w-16 h-20 rounde
             <img
               src={src}
               alt={alt}
-              className="max-w-full max-h-[90vh] rounded-lg shadow-lg"
+              className="min-w-full max-h-[80vh] rounded-lg shadow-lg aspect-[3/4] object-cover md:aspect-auto md:object-fill"
             />
           </div>
         </div>
